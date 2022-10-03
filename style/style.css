@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding-top: 0;
+}
+.page_wrapper{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background: #F5F5F5;
+}
+.left_section{
+    display: flex;
+    flex-basis: 50%;
+    background-image: url(../image/ladyImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.right_section{
+    display: flex;
+    flex-basis: 50%;
+}
+.inner_container{
+    width: 100%;
+    max-width: 500px;
+    margin: 0px auto;
+    color: rgb(19, 92, 92);
+    
+}
+.inner_container h1{
+    font-family: 'Mingzat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 65px;
+    color: #524C4C;
+    text-align: center;
+    padding-top: 30px;
+}
+.input_section{
+    margin-top: 20px;
+
+}
+.form_b input{
+    height: 41px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 1px solid rgba(82, 76, 76, 0.38);
+    
+}
+.form_b p {
+    text-decoration: solid;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+
+}
+button:hover{
+    background-color: rgba(82, 76, 76, 0.38);
+
+}
+.form_b button{
+    width: 100%;
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: rgb(19, 92, 92);
+    font-weight: 600;
+}
+
